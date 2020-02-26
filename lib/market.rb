@@ -22,7 +22,7 @@ class Market
     vendors_with_item
   end
 
-  def potential_revenue
+  def potential_revenue # <--- Method doesnt work got stuck here.
     vendor_potential_revenue = []
     @vendors.each do |vendor|
     vendor_potential_revenue << (vendor.stock * vendor.item)
